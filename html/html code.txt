@@ -1,0 +1,27 @@
+<html><head> 
+    </head>
+    <body>
+        <div class="Application-form">
+            <h1> UI/UX DESIGNER APPLICATION FORM</h1>
+            <h2>Are you a ui/ux designer?</h2>
+            <h3> Please fill in all your details.</h3>
+            <form>
+                <label>Name</label>
+                <input type="text" name="Name">
+                <label>Gender</label>
+                <input type="text" name="Gender">
+                <label>Address</label>
+                <input type="text" name="Address">
+                <label>Email</label>
+                <input type="email" name="email">
+                <label>Phone number</label>
+                <input type="number" number="number">
+                <label>Position</label>
+                <input type="text" name="position">
+                <label>Upload resume</label>
+                <input type="file" file="file">
+                <input type="submit" name="submit" value="Finished application">
+            </form>
+        </div>
+    
+</body></html>
