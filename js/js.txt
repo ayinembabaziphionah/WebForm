@@ -1,0 +1,12 @@
+body{
+  background-color:#000099;
+  color:#00FF00;
+  text-size:50px;
+  padding:10px;
+  border:20px solid #000099;
+  margin:20px;
+  
+}
+div{
+  text-size:100px;
+}

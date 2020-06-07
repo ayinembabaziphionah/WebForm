@@ -1,0 +1,48 @@
+<html><head> 
+ </head> 
+ <body> 
+  <!--Dates and events--> 
+  <h1> Hello,AkiraChix</h1> 
+  <p id="demo"></p> 
+  <script>
+        function timer(){
+          var day=new Date();
+          document.getElementById("demo").innerHTML=day.toUTCString();
+           }
+        setInterval(timer,1000);
+        </script> 
+  <!--Events---> 
+  <!--alert function--> 
+  <div> 
+   <button onclick="show()">Click Me!</button> 
+   <script>
+      function show(){
+        alert("Hello World!")
+         } 
+         </script> 
+  </div> 
+  <hr> 
+  <!--date events programm--> 
+  <p class="sec"> </p> 
+  <button onclick="click()">Show The Time</button> 
+  <script>
+      function click(){
+       var today=new Date();
+       h=checkTime(today.getHours());
+       m=checkTime(today.getMinutes());
+       s=checkTime(today.getSeconds());
+       document.getElementsByClassName("sec").innerHTML=h+";"+m+";"+s;
+ 
+      }
+      click();
+      </script> 
+  <hr> 
+  <!--js milliseconds programm---> 
+  <p class="check"></p> 
+  <script>
+        var check=Date.parse("2022,11");
+        var x=new Date(check);
+          document.getElementsByClassName("check").innerHTML=x;
+          </script> 
+ 
+</body></html>
