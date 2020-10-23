@@ -1,0 +1,30 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Document</title>
+ 
+</head>
+<body>
+    <input class="text" type="text" placeholder="input numbers with comma separated">
+    <input id="button" type="button" value="send">
+    <div id="result"></div>
+  <script>
+      var text = document.querySelector('.text')
+      var button = document.querySelector('#button')
+      var result =  document.querySelector('#result') 
+      
+  
+      const findNumber = array => {
+            array.sort(function(a, b) {return b - a;})
+            return array[1];
+      }
+      
+      button.addEventListener('click', function(){ 
+          let tmp = text.value.split(/,/g)
+          return result.innerHTML = findNumber(tmp)
+      })
+  </script> 
+
+
+</body></html>

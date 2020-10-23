@@ -1,0 +1,66 @@
+<style>
+//body{background:linear-gradient(orange,white,green,white);
+border:2px solid white;}
+//div{/*height: 20%;
+width:10%;*/
+padding-left: 10%;
+padding-right: 10%;
+Background:red;}
+#cir{width:700px;
+Height:1400px;
+background:radial-gradient(white,gold);}
+
+
+
+//#cros{-webkite-fill:linear-gradient(orange,green);
+animation:cros 1s linear infinite;}
+@keyframes cros{
+25%{fill:aqua;
+}
+50%{fill:blueViolet;}
+75%{fill:greenYellow;}
+}
+
+svg{border:30px groove aqua;
+
+outline-offset:10px;
+background:radial-gradient(orange,green,white);
+margin:40px;
+Animation:svg 5s linear infinite;
+}
+@keyframes svg{10%{background:radial-gradient(orange,white,green);
+border-color:blueviolet;}
+20%{background:radial-gradient(yellow,white,blue);}
+30%{background:radial-gradient(aqua,white,green);
+border-color:fuchsia;}
+40%{background:radial-gradient(yellow,white,blue);}
+50%{background:radial-gradient(aqua,white,green);
+Border-color:orange;}
+60%{background:radial-gradient(yellow,white,blue);}
+70%{background:radial-gradient(aqua,white,green);
+border-color:lawn green;}
+80%{background:radial-gradient(yellow,white,blue);}
+90%{background:radial-gradient(aqua,white,green);
+border-color:plum;}
+100%{background:radial-gradient(yellow,white,blue);}
+
+}
+#stumb{animation:s 0.5s linear infinite;
+}
+@keyframes s{25%{fill:red;}
+50%{fill:pink;}
+}
+#x{background:linear-gradient(red,yellow,green);
+animation:x 1s linear infinite;
+}
+@keyframes x{
+}
+#t1,#t2,#t3,#t4,#t5,#t6{animation:t 0.5s linear infinite;
+}
+@keyframes t{20%{fill:orange;}
+40%{fill:aqua;}
+50%{opacity:0;}
+70%{fill:red;}
+90%{fill:white;}
+}
+</style> 

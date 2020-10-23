@@ -1,0 +1,38 @@
+body{
+	 padding: 0px;
+	 margin:0px;
+}
+/*.content{
+	width:1300px;
+	margin: 0 auto;*/
+
+/*.navigation-bar img{
+	width: 90px;
+	height: auto;*/
+
+}
+.navigation-bar ul {
+list-style: none;	
+	float: right;
+ 
+}
+.navigation-bar ul li a{
+ text-decoration:none;
+}
+span{
+	font-size:20px;
+}
+.main-class{
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-attachment:scroll;
+	background-size:cover;
+    background-image: url(../images/rose.jpg);
+    background-position: center center;
+
+	}
+.main-container{
+	width:1000px;
+	margin:0 auto 0;
+	}
+	

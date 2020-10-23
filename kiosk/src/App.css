@@ -1,0 +1,23 @@
+.products {
+  display:column;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 4%;
+  flex: 1 12%;
+}
+
+.product-info {
+  margin-top: auto;
+}
+.products{
+  column-count: 3;
+}
+
+
+
+/* .photo {
+  height: 60vh;
+  width: 60vh;
+} */

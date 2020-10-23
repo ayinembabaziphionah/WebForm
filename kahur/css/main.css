@@ -1,0 +1,121 @@
+body{
+    font-family: sans serif;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-color:#B9C7D3;
+    padding:0px;
+    margin:0 auto;
+}
+.navigation-bar ul li a{
+ text-decoration:none;
+
+}
+.div1{
+ padding-right: 5%;
+ padding-left: 5%;
+ padding-top: 5%;
+}
+
+.nav ul{
+  float: right;
+  list-style-type: none;
+  margin: 40px;
+}
+.nav ul li{
+  display: inline-block;
+  font-family:'opensans-regular',sans-serif;
+}
+.nav ul li a{
+  padding: 8px 25px;
+  color: #001002;
+  font-size: 20px;
+  text-decoration: none;
+}
+.intro-images{
+  background-image: url(../images/none);
+  text-align: center;
+  padding-top: 80px;
+  min-height: 40px;
+  padding-right: 1%;
+  padding-left: 4%;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  background-position: center center;
+  overflow: auto;
+  }
+.skills-intro{
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 5%;
+padding-right:5%; 
+font-size: 20px;
+
+}
+.footer{
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 5%;
+padding-right:5%; 
+font-size: 20px;
+
+}
+.contact{
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 5%;
+padding-right:5%; 
+font-size: 20px;
+
+}
+
+.projects{
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 5%;
+padding-right:5%; 
+font-size: 20px;
+
+}
+
+/*h1{
+  font-size:70;
+  width:350px;
+  text-align: center;
+  color: steelblue;
+}
+h2,h3,h4,h5{
+padding: 4px 0px;
+border-radius:5px;
+background-color:black;
+color:white;
+text-align:center;
+font-size:30px;
+width:300px;
+}
+.circle{border-radius:100%;}
+footer{text-align:right;}
+input{height:50px;
+width:310px;}
+button{background-color:black;
+color:white;
+height:30px;
+width:75px;
+}
+#section {
+background-size:cover;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+text{text-align:center;
+border: 3px solid white;
+background-size:cover;
+background-color:black;
+color:white;}
+.a{
+    border-radius:5px;
+    margin-bottom:5px;
+}*/
